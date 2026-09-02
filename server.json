@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.doritoman90000/universal-game-modder",
-  "description": "Local stdio MCP server that detects a game's engine (Unity Mono/IL2CPP, Unreal, Godot, Java, native) and exposes a native binary analysis and patching toolset for offline modding, interoperability and RE education on software you own. No accounts, no network, no telemetry.",
+  "description": "Local MCP server: detects a game's engine and gives agents native binary analysis/patching tools.",
   "repository": {
     "url": "https://github.com/doritoman90000/universal-game-modder",
     "source": "github"

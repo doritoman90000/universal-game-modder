@@ -1,0 +1,3 @@
+node_modules/
+ugm.config.local.json
+*.log

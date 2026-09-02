@@ -1,0 +1,8 @@
+{
+  "name": "universal-game-modder",
+  "description": "Universal Game Modder MCP server, free open-core edition: game-engine auto-detection plus a native binary analysis/patching toolset for AI agents, running locally over stdio. The guided game-modder workflow skill ships in a later release.",
+  "author": {
+    "name": "Justanotherrandomaiguy"
+  },
+  "version": "0.1.3"
+}

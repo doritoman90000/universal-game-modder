@@ -1,4 +1,4 @@
-# Verification record — v0.1.3
+# Verification record — v0.1.4
 
 Every call documented in [`README.md`](README.md) is executed against a real binary before
 release. This file records the most recent run. If a documented call does not return real
@@ -23,6 +23,8 @@ recognize. Point it at a different binary with `UGM_VERIFY_TARGET=/path/to/binar
 - **Config:** shipped `ugm.config.json` -- all backend paths empty, exactly as a buyer receives it. Loader order is new in 0.1.3: `UGM_CONFIG` > `ugm.config.local.json` > `ugm.config.json` > defaults.
 - **Target binary:** `C:\Windows\System32\notepad.exe`
 - **Result:** **PASS** -- 20/20 documented free-edition tools returned real data; 3/3 Pro-backend tools failed cleanly
+
+Re-run the same day on the v0.1.4 packaging tree (bin entry, shebang, server.json, llms-install.md; no tool changes): **PASS** 20/20 + 3/3; `npm pack --dry-run` = 92 files, 117 kB packed; `node dist/index.js` announces 0.1.4.
 
 Additional checks this run:
 

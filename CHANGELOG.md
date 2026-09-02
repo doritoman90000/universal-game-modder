@@ -3,6 +3,15 @@
 All notable changes to Universal Game Modder are documented here.
 This project adheres to [Semantic Versioning](https://semver.org).
 
+## [0.1.4] - 2026-09-02
+
+Packaging release for npm and the official MCP Registry. No tool behavior changes.
+
+### Added
+- `bin` entry so `npx universal-game-modder` starts the server; `#!/usr/bin/env node` on `dist/index.js`.
+- `mcpName`, `repository`, `homepage`, `bugs`, `keywords` and `files` in `package.json`.
+- `server.json` (MCP Registry manifest, schema 2025-12-11) and `llms-install.md` (agent-facing install steps).
+
 ## [0.1.3] - 2026-09-02
 
 Privacy + recovery release. No tool behavior changes.

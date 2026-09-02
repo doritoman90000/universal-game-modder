@@ -1,9 +1,46 @@
 {
   "name": "universal-game-modder",
-  "version": "0.1.3",
+  "version": "0.1.4",
+  "mcpName": "io.github.doritoman90000/universal-game-modder",
   "description": "Universal Game Modding Machine - One MCP server to mod any game",
+  "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "universal-game-modder": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "licenses",
+    "ugm.config.json",
+    "setup.ps1",
+    "README.md",
+    "CHANGELOG.md",
+    "VERIFICATION.md",
+    "LICENSE",
+    "LICENSE-EULA.md",
+    "ACCEPTABLE_USE.md",
+    "llms-install.md",
+    "server.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doritoman90000/universal-game-modder.git"
+  },
+  "homepage": "https://github.com/doritoman90000/universal-game-modder#readme",
+  "bugs": {
+    "url": "https://github.com/doritoman90000/universal-game-modder/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "game-modding",
+    "reverse-engineering",
+    "binary-analysis",
+    "unity",
+    "unreal",
+    "godot"
+  ],
   "scripts": {
     "build": "tsc",
     "build:ui": "cd src/web/public && npx vite build --outDir ../../../dist/web/public",

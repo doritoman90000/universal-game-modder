@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { startMcpServer } from './server.js';
 import { startWebServer } from './web/web-server.js';
 import { loadConfig } from './core/config.js';
